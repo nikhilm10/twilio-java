@@ -1,7 +1,8 @@
 language: java
 sudo: false
-before_install:
-  - cat /proc/cpuinfo
+jdk:
+  - oraclejdk8
+  - oraclejdk7
 notifications:
   slack:
     on_success: change
