@@ -1,5 +1,7 @@
 language: java
 sudo: false
+before_install:
+  - cat /proc/cpuinfo
 notifications:
   slack:
     on_success: change
